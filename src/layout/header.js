@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import '../App.css';
 
 class Header extends Component {
   render() {
-    return (
-      <div className="App">
-        Welcome to page
-      </div>
-    );
+      return <div className="AppHeader">
+          Welcome to page
+          - {this.props.siteName} -
+      </div>;
   }
 }
 
