@@ -6,6 +6,7 @@ class Footer extends Component {
     return (
       <div className="AppFooter">
         Exit
+        - {this.props.name}
       </div>
     );
   }

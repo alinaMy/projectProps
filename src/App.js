@@ -6,11 +6,13 @@ import Footer from './layout/footer';
 
 class App extends Component {
   render() {
+
+    const sn = 'react';
     return (
       <div className="App">
-        <Header siteName = "REACT" />
+        <Header siteName = {sn} />
         <Content />
-        <Footer />
+        <Footer name = {sn}/>
       </div>
     );
   }

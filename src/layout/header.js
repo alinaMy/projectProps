@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
       return <div className="AppHeader">
           Welcome to page
-          - {this.props.siteName} -
+          - {this.props.siteName === 'react' ? 'React' : 'NoReact'} -
       </div>;
   }
 }
